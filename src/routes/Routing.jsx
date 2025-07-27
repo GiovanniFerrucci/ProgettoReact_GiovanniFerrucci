@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router";
-import HomePage from '../pages/error/Homepage';
+import HomePage from '../pages/Homepage';
 import Layout from '../layout/Layout';
 import GenrePage from '../pages/genrepage/GenrePage';
 import GamePage from '../pages/gamepage/GamePage';
@@ -15,10 +15,10 @@ export function Routing() {
         <Routes>
         <Route element={<Layout />}>
         <Route path="/" element={<HomePage />} />
-        <Route path="*" element={<ErrorPage />} />
         <Route path="/games/:genre" element={<GenrePage />} />
         <Route path="/games/:slug/:id" element={<GamePage />} />
         <Route path="/search" element={<SearchPage />} />
+        <Route path="*" element={<ErrorPage />} />
         <Route path="/register" element={<RegisterPage />}/>
         <Route path="/login" element={<LoginPage />}/>
         <Route path="/account" element={<AccountPage />}/>
