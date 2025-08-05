@@ -1,13 +1,13 @@
-import { BrowserRouter, Routes, Route } from "react-router";
-import HomePage from '../pages/Homepage';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from '../pages/homepage/Homepage';
 import Layout from '../layout/Layout';
-import GenrePage from '../pages/genrepage/GenrePage';
+import GenrePage from '../pages/genrePage/GenrePage';
 import GamePage from '../pages/gamepage/GamePage';
-import SearchPage from '../pages/searchpage/SearchPage';
-import ErrorPage from '../pages/error/ErrorPage';
-import RegisterPage from '../pages/registerpage/RegisterPage';
-import LoginPage from '../pages/loginpage/LoginPage';
-import AccountPage from '../pages/accountpage/AccountPage';
+import SearchPage from '../pages/SearchPage';
+import ErrorPage from '../pages/Error';
+import RegisterPage from '../pages/Register';
+import LoginPage from '../pages/Login';
+import AccountPage from '../pages/account/index';
 
 export function Routing() {
     return (

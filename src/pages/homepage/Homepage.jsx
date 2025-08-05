@@ -1,5 +1,5 @@
-import useFetchSolution from "../hooks/useFetchSolution";
-import CardGame from "../components/CardGame";
+import useFetchSolution from "../../hooks/useFetchSolution";
+import CardGame from "../../components/CardGame";
 
 export default function HomePage() {
     const initialUrl = `https://api.rawg.io/api/games?key=9269195f491e44539d7ad210ce87ab15&dates=2024-01-01,2024-12-31&page=1`;
