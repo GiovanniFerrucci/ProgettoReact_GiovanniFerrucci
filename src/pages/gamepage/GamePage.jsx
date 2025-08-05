@@ -1,5 +1,5 @@
 import { useParams } from "react-router";
-import useFetchSolution from "../hooks/useFetchSolution";
+import useFetchSolution from "../../hooks/useFetchSolution";
 
 export default function GamePage() {
     const { id } = useParams();
