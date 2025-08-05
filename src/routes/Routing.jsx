@@ -1,12 +1,12 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from '../pages/homepage/Homepage';
+import { BrowserRouter, Routes, Route } from "react-router";
+import HomePage from '../pages/homepage/index';
 import Layout from '../layout/Layout';
-import GenrePage from '../pages/genrePage/GenrePage';
+import GenrePage from '../pages/genrepage/GenrePage';
 import GamePage from '../pages/gamepage/GamePage';
-import SearchPage from '../pages/SearchPage';
-import ErrorPage from '../pages/Error';
-import RegisterPage from '../pages/Register';
-import LoginPage from '../pages/Login';
+import SearchPage from '../pages/searchpage/index';
+import ErrorPage from '../pages/error/index';
+import RegisterPage from '../pages/register/index';
+import LoginPage from '../pages/login/index';
 import AccountPage from '../pages/account/index';
 
 export function Routing() {
